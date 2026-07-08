@@ -1,10 +1,10 @@
-# Learning journey
+# Learning Journey
 
 An iOS app to help users track daily progress, manage learning streaks, and stay accountable for their goals.
 
 ## Description
 
-Learning journey is designed for anyone who wants to build a consistent learning habit. It tackles the challenge of staying motivated by providing a clear visual tracker for your goals. 
+Learning Journey is designed for anyone who wants to build a consistent learning habit. It tackles the challenge of staying motivated by providing a clear visual tracker for your goals.
 The app helps you stay accountable by managing 'freeze' days for breaks and tracking your learning streak, which resets after 32 hours of no activity.
 
 ## ✨ Features
@@ -26,12 +26,24 @@ The app helps you stay accountable by managing 'freeze' days for breaks and trac
 
 The project is structured using the MVVM (Model-View-ViewModel) design pattern.
 
-Learning/ ├── LearningApp.swift # Main app entry point ├── AppState.swift # Manages global app state ├── StyleGuide.swift # Contains custom styles and colors │ 
-├── Models.swift # Data models (e.g., Goal, Log) │ ├── Views/ │ ├── ContentView.swift # Main view, possibly routing │ ├── GoalCreationFormView.swift # View for setting a new goal │
-├── Logday.swift # View for logging daily progress │ └── reselectgoal.swift # View for editing/reselecting a goal │ ├── ViewModels/ │ ├── ContentViewModel.swift # ViewModel for ContentView │
-├── LogdayViewModel.swift # ViewModel for Logday view │ └── ReselectGoalViewModel.swift # ViewModel for reselectgoal view │ 
-├── Assets.xcassets # App icons, custom colors, etc. └── LearningTests/ # Unit and UI tests
-
+```
+Learning/
+├── LearningApp.swift            # Main app entry point
+├── AppState.swift               # Manages global app state
+├── StyleGuide.swift             # Custom styles and colors
+├── Models.swift                 # Data models (e.g., Goal, Log)
+├── Views/
+│   ├── ContentView.swift        # Main view and routing
+│   ├── GoalCreationFormView.swift  # Setting a new goal
+│   ├── Logday.swift             # Logging daily progress
+│   └── reselectgoal.swift       # Editing/reselecting a goal
+├── ViewModels/
+│   ├── ContentViewModel.swift
+│   ├── LogdayViewModel.swift
+│   └── ReselectGoalViewModel.swift
+├── Assets.xcassets              # App icons, custom colors
+└── LearningTests/               # Unit and UI tests
+```
 
 ## Prerequisites
 
@@ -44,11 +56,11 @@ Learning/ ├── LearningApp.swift # Main app entry point ├── AppState.
 
 1.  Clone the repository:
     ```sh
-    git clone [https://github.com/REEMALGHAMDI4/learning.git](https://github.com/REEMALGHAMDI4/learning.git)
+    git clone https://github.com/ReemAlghamdi4/learning-journey.git
     ```
 2.  Open the project in Xcode:
     ```sh
-    cd learning
+    cd learning-journey
     open Learning.xcodeproj
     ```
 
@@ -65,6 +77,6 @@ Learning/ ├── LearningApp.swift # Main app entry point ├── AppState.
 
 ## 📧 Contact
 
-REEMALGHAMDI4
+**Reem Alghamdi** — ireemahmed2@gmail.com
 
-Project Link: [https://github.com/REEMALGHAMDI4/learning](https://github.com/REEMALGHAMDI4/learning)
+Project Link: [https://github.com/ReemAlghamdi4/learning-journey](https://github.com/ReemAlghamdi4/learning-journey)
